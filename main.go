@@ -37,7 +37,7 @@ func main() {
 					if err != nil {
 						panic(err)
 					}
-					fmt.Printf("Found: Mp%s\n %s\n", keyStr, jsonBytes)
+					fmt.Printf("Found: Mp%s\n%s\n", keyStr, jsonBytes)
 					os.Exit(0)
 				}
 			}
